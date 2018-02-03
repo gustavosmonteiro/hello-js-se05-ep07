@@ -7,6 +7,9 @@
     <md-list-item v-for="f in festas" :key="f.idfesta">
       {{f.nomefesta}}
     </md-list-item>
+    <md-list-item>
+      <a href="/#/criar-festa">Nova</a>
+    </md-list-item>
   </md-list>
 </template>
 

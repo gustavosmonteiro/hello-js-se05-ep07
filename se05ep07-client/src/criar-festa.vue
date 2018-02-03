@@ -4,6 +4,7 @@
       <label>Nome da festa</label>
       <md-input v-model="festa.nomefesta" required></md-input>
     </md-input-container>
+    <a href="/#/lista-festas">Voltar</a>
     <md-button type="submit" class="md-primary md-raised">Salvar</md-button>
   </form>
 </template>
